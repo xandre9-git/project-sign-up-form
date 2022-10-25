@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "neoteric";
+  src: url("fonts/neoteric-32a8-webfont.woff2") format("woff2"), url("fonts/neoteric-32a8-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font: 2em "neoteric", monospace;
+}
+
 h1 {
-  color: tomato;
+  color: dodgerblue;
+  font: 2em "neoteric", monospace;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  font: .75em "neoteric";
+}
+
+form > div {
+  margin-top: 7.5%;
 }
