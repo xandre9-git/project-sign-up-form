@@ -8,36 +8,44 @@
     <title>Graphein</title>
   </head>
   <body>
-    <div><h1>Graphein</h1></div>
-    <div>
-      A network for connecting with others all over the world. One
-      that does not share or sell your information.
-    </div>
+    <img src="/images/sander-weeteling-unsplash.jpg" alt="">
+    <section id="intro">
+
+      <div><h1>Graphein</h1></div>
+      <div class="blurb">
+        A network for connecting with others all over the world. One that does
+        not share or sell your information. Sign up below.
+       
+      </div>
+
+    </section>
 
     <div id="form">
+      <img src="/images/graphein-logo.png" alt="a human head with rainbow colored arrows" id="logo">
       <form
         action="https://www.nonexistant.com/"
         method="post"
         id="sign-up-form"
       >
-        <div>
-          <label for="fname">First Name</label>
+      
+        <div class="field">
+          <div><label for="fname">First Name</label></div>
           <input type="text" id="fname" name="first-name" />
         </div>
-        <div>
-          <label for="lname">Last Name</label>
+        <div class="field">
+          <div><label for="lname">Last Name</label></div>
           <input type="text" id="lname" name="last-name" />
         </div>
-        <div>
-          <label for="email">Email</label>
+        <div class="field">
+          <div><label for="email">Email</label></div>
           <input type="email" id="email" name="email" />
         </div>
-        <div>
-          <label for="phone">Phone Number</label>
+        <div class="field">
+          <div><label for="phone">Phone Number</label></div>
           <input type="tel" id="phone" name="phone" />
         </div>
-        <div>
-          <label for="password">Password</label>
+        <div class="field">
+          <div><label for="password">Password</label></div>
           <input
             type="password"
             id="password"
@@ -47,8 +55,8 @@
             required
           />
         </div>
-        <div>
-          <label for="confirm-password">Confirm Password</label>
+        <div class="field">
+          <div><label for="confirm-password">Confirm Password</label></div>
           <input
             type="password"
             id="confirm-password"
