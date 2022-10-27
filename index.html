@@ -15,12 +15,19 @@
           alt="a photo of illuminated blue rods"
           id="backsplash"
         />
+        <div id="transparent-overlay">
+          <div #id="product-name">
+            <!-- <img
+              src="/images/graphein.png"
+              alt="graphein's company logo"
+              id="graphein-logo"
+            /> -->
+            <h1>Graphein</h1>
+          </div>
+        </div>
       </div>
 
       <div class="right-content">
-        <div #id="product-name">
-          <h1>Graphein</h1>
-        </div>
         <div class="blurb">
           A network for connecting with others all over the world. One that does
           not share or sell your information. Sign up below.
@@ -34,15 +41,15 @@
           >
             <div class="field">
               <div><label for="fname">First Name</label></div>
-              <input type="text" id="fname" name="first-name" required/>
+              <input type="text" id="fname" name="first-name" required />
             </div>
             <div class="field">
               <div><label for="lname">Last Name</label></div>
-              <input type="text" id="lname" name="last-name" />
+              <input type="text" id="lname" name="last-name" required />
             </div>
             <div class="field">
               <div><label for="email">Email</label></div>
-              <input type="email" id="email" name="email" />
+              <input type="email" id="email" name="email" required />
             </div>
             <div class="field">
               <div><label for="phone">Phone Number</label></div>
@@ -53,6 +60,7 @@
               <input
                 type="password"
                 id="password"
+                class="error"
                 name="password"
                 minlength="8"
                 maxlength="127"
@@ -64,6 +72,7 @@
               <input
                 type="password"
                 id="confirm-password"
+                class="error"
                 name="confirm-password"
                 minlength="8"
                 maxlength="127"
