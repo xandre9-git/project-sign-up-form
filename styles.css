@@ -54,11 +54,18 @@ button {
   margin-top: 15%;
   width: 50%;
   height: 50px;
+  color: dodgerblue;
+  background-color: white;
+  font: .85em "neoteric";
+  border: 2px solid dodgerblue;
+  font-weight: bold;
 }
 
 button:hover {
   color: white;
   background-color: dodgerblue;
+  font-weight: bold;
+  
 }
 
 #main-container {
