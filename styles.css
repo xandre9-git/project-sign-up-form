@@ -56,6 +56,11 @@ button {
   height: 50px;
 }
 
+button:hover {
+  color: white;
+  background-color: dodgerblue;
+}
+
 #main-container {
   display: flex;
 }
