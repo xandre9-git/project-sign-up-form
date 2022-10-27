@@ -72,16 +72,31 @@ button:hover {
   display: flex;
 }
 
-#logo {
-  height: 256px;
-  width: 256px;
+#product-name {
+  display: flex;
+}
+
+#graphein-logo {
+  height: 50px;
 }
 
 #backsplash {
   height: 100vh;
   width: 425px;
   float: left;
-  
+  position: absolute;
+  opacity: 0.3;
+}
+
+#transparent-overlay {
+  display: flex;
+  height: 100vh;
+  width: 425px;
+  float: left;
+  background-color: rgba(0,0,0);
+  z-index: 9;
+  color: white;
+  justify-content: center;
 }
 
 #sign-up-form {
