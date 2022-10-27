@@ -51,6 +51,7 @@ img {
 button {
   margin: 0 auto;
   appearance: none;
+  margin-top: 15%;
 }
 
 #main-container {
@@ -79,6 +80,7 @@ button {
 
 .blurb {
   padding: 5%;
+
   font-size: .75em;
 }
 
