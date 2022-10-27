@@ -52,6 +52,8 @@ button {
   margin: 0 auto;
   appearance: none;
   margin-top: 15%;
+  width: 50%;
+  height: 50px;
 }
 
 #main-container {
@@ -79,8 +81,7 @@ button {
 }
 
 .blurb {
-  padding: 5%;
-
+  padding: 2.5%;
   font-size: .75em;
 }
 
