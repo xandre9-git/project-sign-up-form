@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+
     <title>Graphein</title>
   </head>
   <body>
@@ -65,6 +66,7 @@
                 name="password"
                 minlength="8"
                 maxlength="127"
+                autocomplete="on"
                 required
               />
             </div>
@@ -77,6 +79,8 @@
                 name="confirm-password"
                 minlength="8"
                 maxlength="127"
+                autocomplete="on"
+                onkeyup="passwordMatch()"
                 required
               />
             </div>
@@ -87,4 +91,5 @@
       </div>
     </section>
   </body>
+  <script src="scripts.js"></script>
 </html>
