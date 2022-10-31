@@ -48,6 +48,10 @@ input:focus {
   box-shadow:0 5px 5px steelblue;
 }
 
+input:valid {
+  border: 2px solid steelblue;
+}
+
 img {
   max-height: 100%;
   height: auto;
