@@ -24,7 +24,7 @@ h1 {
   position: absolute;
   top: 25%;
   left: 0%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
   width: 425px;
 }
 
@@ -82,13 +82,13 @@ button:hover {
 }
 
 
-
 #product-name {
   display: flex;
 }
 
 #graphein-logo {
   height: 50px;
+  margin-right: 2.5%;
 }
 
 #backsplash {
@@ -137,8 +137,10 @@ button:hover {
 
 a:link, a:visited, a:active {
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
-
+  color: dodgerblue;
+  font-weight: bold;
 }
