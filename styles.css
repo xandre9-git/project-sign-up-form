@@ -28,6 +28,8 @@ h1 {
   width: 425px;
 }
 
+
+
 form {
   font: .65em "neoteric";
   /* width: 50%; */
@@ -81,7 +83,11 @@ button:hover {
   display: flex;
 }
 
-#left-content {
+.right-content {
+  background-color: #ffffff;
+}
+
+.left-content {
   position: relative;
 }
 
@@ -123,7 +129,7 @@ button:hover {
 }
 
 .blurb {
-  margin-top: 12.5%;
+  margin-top: 10%;
   padding: 2.5%;
   font-size: .75em;
 }
@@ -147,4 +153,15 @@ a:link, a:visited, a:active {
 a:hover {
   color: dodgerblue;
   font-weight: bold;
+}
+
+.credits {
+  position: absolute;
+  left: 2.5%;
+  color: white;
+  font: .55em "neoteric";
+}
+
+.credits > a:link, a:visited {
+  color: white;
 }
